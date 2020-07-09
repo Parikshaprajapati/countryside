@@ -1,0 +1,83 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+
+.pimg1{
+    background-image: url(clouds-countryside-daylight-2387628.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(adventure-altitude-beautiful-2523783.jpg);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(cliffs-countryside-daylight-2553404.jpg);
+    min-height: 400px;
+}
+
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section{
+    text-align: center;
+    padding: 80px 80px;
+}
+
+.section-1,.section-2{
+    text-align: center;
+    padding: 20px ;
+}
+
+.ptext{
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+@media(max-width:700px){
+    .pimg1,.pimg2,pimg3{
+        background-attachment: scroll;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
